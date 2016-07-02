@@ -14,7 +14,7 @@ const PHASE_PLAY = 4;		//游戏进行阶段
 const PHASE_PAUSE = 5;		//游戏暂停阶段
 const PHASE_GAMEOVER = 6;	//游戏结束阶段
 
-var curPhase = PHASE_DOWNLOAD;  //当前所处的阶段
+var curPhase = PHASE_DOWNLOAD;  //当前
 
 //游戏所需的所有图片
 var imgBackground;		
