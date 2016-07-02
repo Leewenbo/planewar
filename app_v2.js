@@ -1,6 +1,6 @@
 /**全局变量**/
-var canvasWidth = 480;	//画布的宽
-var canvasHeight = 650;	//画布的高
+var canvasWidth = 480;	//画布的width
+var canvasHeight = 650;	//画布的height
 
 var canvas = document.getElementById('canvas');
 canvas.width = canvasWidth;
@@ -16,7 +16,7 @@ const PHASE_GAMEOVER = 6;	//游戏结束阶段
 
 var curPhase = PHASE_DOWNLOAD;  //当前
 
-//游戏所需的所有图片
+//游戏所需的所
 var imgBackground;		
 var imgBullet1;
 var imgsEnemy1 = [];	//小号敌机
@@ -157,6 +157,7 @@ function download(){
 		progress += 3;
 		drawProgress();
 	}
+	//jjjjjjjj
 	imgsEnemy3[7] = new Image();
 	imgsEnemy3[7].src = 'img/enemy3_down5.png';
 	imgsEnemy3[7].onload = function(){
