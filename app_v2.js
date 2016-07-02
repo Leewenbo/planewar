@@ -1,6 +1,6 @@
 /**全局变量**/
 var canvasWidth = 480;	//画布的宽
-var canvasHeight = 650;	//画布的高
+var canvasHeight = 650;	//画布
 
 var canvas = document.getElementById('canvas');
 canvas.width = canvasWidth;
