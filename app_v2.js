@@ -20,12 +20,12 @@ var curPhase = PHASE_DOWNLOAD;  //当前
 var imgBackground;		
 var imgBullet1;
 var imgsEnemy1 = [];	//小号敌机
-var imgsEnemy2 = [];	//中号敌机所有图片
-var imgsEnemy3 = [];	//大号敌机所有图片
-var imgsGameLoading = [];	//游戏加载中所有图片
+var imgsEnemy2 = [];	//中号敌机
+var imgsEnemy3 = [];	//大号敌机
+var imgsGameLoading = [];	//游戏加载中
 var imgGamePauseNor;
-var imgsHero = [];		//英雄所有的图片
-var imgStart;			//就绪阶段的图片
+var imgsHero = [];		//英雄所有的
+var imgStart;			//就绪阶段的
 
 /***阶段1：下载图片***/
 download();	//下载所有的图片
