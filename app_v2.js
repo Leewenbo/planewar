@@ -19,7 +19,7 @@ var curPhase = PHASE_DOWNLOAD;  //当前所处的阶段
 //游戏所需的所有图片
 var imgBackground;		
 var imgBullet1;
-var imgsEnemy1 = [];	//小号敌机所有图片
+var imgsEnemy1 = [];	//小号敌机
 var imgsEnemy2 = [];	//中号敌机所有图片
 var imgsEnemy3 = [];	//大号敌机所有图片
 var imgsGameLoading = [];	//游戏加载中所有图片
