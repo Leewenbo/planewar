@@ -22,13 +22,13 @@ var imgBullet1;
 var imgsEnemy1 = [];	//小号敌机
 var imgsEnemy2 = [];	//中号敌机
 var imgsEnemy3 = [];	//大号敌机
-var imgsGameLoading = [];	//游戏加载中
+var imgsGameLoading = [];	//游戏加载ing
 var imgGamePauseNor;
 var imgsHero = [];		//英雄所有的
 var imgStart;			//就绪阶段的
 
 /***阶段1：下载图片***/
-download();	//下载所有的图片
+download();	//下载所有的
 function download(){
 	var progress = 0; //下载进度：共有33张，每张的进度权重算3，背景图权重算4，权重和为100
 	ctx.font = '80px Helvetica'; //加载进度的字体
